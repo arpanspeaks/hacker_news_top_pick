@@ -2,3 +2,5 @@ I like reading Hacker News because it's a targeted community that doesn't want t
 
 This is a small python script by running which one can see only the top alticles(having points >= 100) from the first 5 pages of 'https://news.ycombinator.com/news' without going to the website to find the top rated articles manually.
 The program will generate a .csv file consisting of 3 columns, namely: 'Title', 'Link', 'Points' as the output and the records in the .csv file will be sorted descendingly with respect to the individual points(votes). Internet connection is required to run the program for generating desired the output.
+
+N.B - There's a lot of scope for modifications to this implementation, especially for handling errors. So, any changes are welcome.
